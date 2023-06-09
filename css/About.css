@@ -171,6 +171,21 @@ margin: 5px  0px 5px 5px;
     padding: 10px 5px;
     margin-left: 10px;
 }
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width:25px ;
+    height: 3px;
+    margin:5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #262626;
+   
+} 
+
 .header{
     background-image: url(../images/Image\ \(3\).png);
     background-repeat: no-repeat;
@@ -819,17 +834,23 @@ text-align: center;
 }
 /* ===========Responsiveness===================== */
 @media screen and (min-width: 270px) and (max-width: 1000px){  
-    .hamburger{
-        display:block;
-        margin-bottom: 30px;
+    .hamburger {
+        /* margin-top: -30%; */
+        display: block;
+        /* margin-bottom: 30px; */
+        margin-left: -80%;
     }
     .logo {
         padding-top: 0px;
         /* gap: 30px; */
         margin: 30px 0px 0px 10px;
     }
+    nav{
+        display: block;
+        flex-direction: column-reverse;
+    }
     .links-container{
-        position: absolute;
+        position: fixed;
         top: 10%;
         right: -600px;
         width: 50%;
@@ -838,10 +859,6 @@ text-align: center;
     }
 .links-container ul{
     display: block;
-}
-nav{
-    display: block;
-    flex-direction: column-reverse;
 }
 .fa-times{
     visibility: visible;
@@ -859,6 +876,26 @@ nav{
     padding: 0 0;
     margin-top: 10px;
 }
+.header {
+    background-image: url(../images/Image\ \(3\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 98%;
+    height: 10vh;
+    margin-top: 5%;
+ }
+ .header img {
+    width: 50%;
+    height: 100%;
+    /* margin-left: 5%; */
+}
+ .header h1 {
+    color: #274C5B;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: -15%;
+ }
 .prtext h4 {
     color: #f0f0f0;
     font-size: 25px;
@@ -884,13 +921,12 @@ nav{
 .lemon img {
     width: 100%;
     height: 50vh;
-    margin: 0% 0% 0% 0%;
+    margin: 0% 0% 0% -15%;
 }
 .lemon .tomatoes {
-    margin: -55% 0% 0% -18%;
     width: 100%;
-    height: 60vh;
-    /* box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19); */
+    margin-top: 2%;
+    height: 50vh;
 }
 .writeups {
     /* padding: 140px 0px 5px 0px; */
@@ -918,7 +954,7 @@ h3 {
 .npsm-con {
     display: flex;
     background: #ECECEC;
-    width: 100%;
+    width: 90%;
     height: 10vh;
     border-radius: 30px;
     padding: 10px;
@@ -928,11 +964,12 @@ h3 {
     display: block;
     background-color: #fff;
     margin-top: 10%;
-    margin-left: 15%;
+    margin-left: 0%;
+    gap: 5%;
 }
 .return p {
     font-family: Open Sans;
-    font-size: 10px;
+    font-size: 15px;
     /* font-weight: 400; */
     /* line-height: 25px; */
     letter-spacing: 0em;
@@ -946,7 +983,7 @@ h3 {
     width: 100%;
     border-radius: 25px;
     padding: 10px;
-    margin-left: 10px;
+    margin-left: 0px;
     text-align: center;
 }
 .whyimg-con img {
@@ -956,14 +993,21 @@ h3 {
     margin: 5% 0% 0% 10%;
 }
 .ourteam {
-    margin-left: 10%;
+    margin-left: 0%;
     display: block;
 }
+.ourt {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    color: #274C5B;
+}
 .Team-con p {
-    font-family: Open Sans;
+    font-family:'Open Sans';
     font-size: 15px;
     font-weight: 400;
-    /* line-height: 30px; */
+    line-height: 20px;
     letter-spacing: 0em;
     text-align: center;
     color: #525C60;
@@ -972,12 +1016,12 @@ h3 {
     background-color: #fff;
     width: 100%;
     height: 110vh;
-    margin-top: 170%;
+    margin-top: 175%;
 }
 .wweff-con {
     background-color: #274C5B;
     width: 100%;
-    height: 120vh;
+    height: 155vh;
     margin-top: 250%;
 }
 .ourw {
@@ -992,52 +1036,51 @@ h3 {
     margin: 5%;
 }
 .weof-con img {
-    width: 50%;
-    height: 20vh;
+    width: 90%;
+    height: 30vh;
 }
 .for-turn {
     background-color: #fff;
-    width: 60%;
-    height: 20vh;
+    width: 90%;
+    height: 30vh;
     border-radius: 25px;
     padding: 10px;
-    margin-left: 10px;
+    margin-left: 1px;
     /* gap: 10%; */
     text-align: center;
     margin-bottom: 5%;
 }
 .subscribe-con {
-    width: 85%;
+    width: 100%;
     height: 40vh;
-    margin: 50px 0px 0px 5px;
+    margin: 30% 0% 0% 0%;
 }
 .subs input {
     outline: none;
     border: none;
     width: auto;
     height: 8vh;
-    margin-left: 5%;
+    margin-left: 2%;
     text-align: justify;
-    border-radius: 16px;
+    /* border-radius: 16px; */
     gap: 5%;
-    /* margin-top: -5%; */
+    margin-top: 5%;
     padding: 5px;
 }
 .subs .subsbtn {
     background: #274C5B;
     border-radius: 16px;
-    width: 100px;
+    width: 150px;
     height: 7vh;
-    /* align-items: center; */
-    /* padding: 20px 47px 30px; */
+    align-items: center;
+    padding: 20px 47px 30px;
     gap: 10px;
     border: none;
-    /* margin-top: -5%; */
+    margin-top: 5%;
     color: #fff;
     font-size: 13px;
     font-weight: 600;
     margin-left: 2%;
-    text-align: center;
 }
 
 footer {
@@ -1046,28 +1089,64 @@ footer {
     background-color: #fff;
     height: 60vh;
     margin-left: 15%;
-    margin-top: 60%;
+    margin-top: 40%;
     /* align-content: center; */
-}
-.arrow {
-    border-bottom: 1px solid #D4D4D4;
-    /* padding-left: 10px; */
-    height: 20vh;
-    padding: 10px;
-    /* margin: 10px; */
-}
-.copy {
+ }
+ .fotxt {
+     text-align: left; 
+    color: #274C5B;
+    font-size: 18px;
+    font-weight: 600;
+    /* margin-left: 5px; */
+ }
+ .numb {
+    display: flex;
+     /* margin-left: 20px;  */
+    text-align: left;
+    color: #525C60;
+    float: left;
+ }
+ .contact {
+    color: #274C5B;
+    margin-left: 0%;
+    /* text-align: center; */
+ }
+ 
+ 
+ .arrow {
+      
+       height: 20vh;
+       padding: 10px;
+       margin: 0px;
+       visibility: hidden;
+   }
+   .poll img {
+    text-align: center;
+    margin-left: 0%;
+ }
+ .icon {
+    display: flex;
+    gap: 20px;
+    margin-left: 20%;
+    /* background-color: #7EB693; */
+    margin-top: 40px;
+ }
+ footer h1 {
+    color: #274C5B;
+    /* text-align: center; */
+ }
+ .copy {
     font-family: Open Sans;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0em;
     text-align: center;
-    margin-top: 180%;
+    margin-top: 185%;
     margin-left: 5%;
-}
+ }
 
-
+ 
 }
 
      
