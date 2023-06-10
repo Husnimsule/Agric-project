@@ -433,10 +433,11 @@ text-align: center;
 /* =======responsivenes======= */
 @media screen and (min-width: 270px) and (max-width: 1000px){
     .hamburger {
-        /* margin-top: -30%; */
+        padding-top: 0%;
         display: block;
         /* margin-bottom: 30px; */
-        margin-left: -80%;
+        margin-left: 70%;
+        margin-top: -40%;
     }
     .logo {
         padding-top: 0px;
@@ -451,9 +452,16 @@ text-align: center;
         position: fixed;
         top: 10%;
         right: -600px;
-        width: 50%;
-        height: 100vh;
+        width: 55%;
+        height: 40vh;
         background-color: #fff;
+        z-index: 2;
+    }
+    .links-container ul li, a {
+        color: #274C5B;
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: 3%;
     }
 .links-container ul{
     display: block;
