@@ -642,7 +642,7 @@ text-align: center;
     .logo {
         padding-top: 0px;
         /* gap: 30px; */
-        margin: 30px 0px 0px 10px;
+        margin: 0px 0px 0px 10px;
     }
     nav{
         display: block;
@@ -650,7 +650,7 @@ text-align: center;
     }
     .links-container{
         position: fixed;
-        top: 10%;
+        top: 0%;
         right: -600px;
         width: 55%;
         height: 40vh;
@@ -721,7 +721,6 @@ text-align: center;
 .col2 {
     display: block;
     margin-top: 2%;
-    margin-left: 2%;
 }
 .port-con {
     /* background-color: #F9F8F8; */
@@ -730,7 +729,7 @@ text-align: center;
     height: 410px;
     padding: 0px 0px 5px 0px;
     gap: 5px;
-    margin: 30px 0px 10px 0px;
+    margin: 35px 0px 10px 0px;
     /* display: inline-block; */
 }
 .port-con img {
@@ -745,7 +744,7 @@ text-align: center;
     height: 410px;
     padding: 0px 0px 5px 0px;
     gap: 5px;
-    margin: 30px 0px 10px 0px;
+    margin: 35px 0px 10px 0px;
     
 }
 .ports-cons {
@@ -772,14 +771,14 @@ text-align: center;
 .port-cons img {
     width: 100%;
     height: 50vh;
-    margin-top: 18%;
+    margin-top: 35%;
     border-radius: 15px 15px 15px 15px;
 }
 .subscribe-con {
     width: 100%;
     height: 40vh;
-    margin: 50px 0px 0px 5px;
-    margin-top: 20%;
+    margin: 50px 0px 0px 0px;
+    margin-top: 45%;
 }
  .subs input {
     outline: none;
