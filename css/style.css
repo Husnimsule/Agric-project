@@ -173,7 +173,7 @@ margin: 5px  0px 5px 5px;
     margin-left: 10px;
 }
 .second-part{
-    /* margin-top: 5%; */
+    margin-top: 5%;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -1621,7 +1621,7 @@ text-align: center;
         .circle-con {
             display: block;
             margin-left: 17%;
-            margin-top: -296%;
+            margin-top: -300%;
             flex-direction: column;
         }
            
