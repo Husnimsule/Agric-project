@@ -676,6 +676,16 @@ color: #525C60;
 .team-social {
     margin: -7% 0% 0% 45%;
 }
+.giova-con img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 15px 15px 0px 0px;
+}
+.giova-cons img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 15px 15px 0px 0px;
+}
 .giova-con {
     background-color: #F9F8F8;
     border-radius: 15px;

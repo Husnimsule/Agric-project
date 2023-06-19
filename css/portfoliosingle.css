@@ -606,7 +606,7 @@ text-align: center;
 .fwhite {
     background-color: #fff;
     width: 65%;
-    height: 35vh;
+    height: 40vh;
     border-radius: 2% 0% 0% 2%;
     box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2);
 }
@@ -632,21 +632,21 @@ text-align: center;
 .blackrhapsberry-con {
     display: flex;
     margin-left: 0%;
-    margin-top: -10%;
+    margin-top: 10%;
 }
 .secgrey {
     background-color: #FAFAFA;
-    width: 35%;
-    height: 36vh;
+    width: 40%;
+    height: 40vh;
     border-radius: 0% 5% 5% 0%;
     padding: 0%;
     box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.0);
 }
 .secgrey p {
-    /* margin: 3% 5%; */
+    margin: 0% 0%;
     font-family: Roboto;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 700;
     line-height: 20px;
     letter-spacing: 0em;
     text-align: left;
